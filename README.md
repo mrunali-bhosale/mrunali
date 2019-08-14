@@ -15,3 +15,15 @@ test set (test.csv)
 The training set should be used to build your machine learning models. For the training set, we provide the outcome (also known as the “ground truth”) for each passenger. Your model will be based on “features” like passengers’ gender and class. 
 
 The test set should be used to see how well your model performs on unseen data. For the test set, we do not provide the ground truth for each passenger. For each passenger in the test set, use the model trained to predict whether or not they survived the sinking of the Titanic.
+
+Data Dictionary  :
+Survival : 0:not surivved,1:survived
+pclass: 1=1st class,2=2nd class,3=3rd class 
+sex : male,female
+Age : age in years
+sibsp : no. of siblings / spouses aboard the Titanic
+parch : no.of parents / children aboard the Titanic
+ticket : ticket number
+fare : fare of passengers
+cabin : cabim number
+embarked : Port of embarkation(C = Cherbourg, Q = Queenstown, S = Southampton)
